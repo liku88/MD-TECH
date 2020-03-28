@@ -1,0 +1,59 @@
+.navbar-default .navbar-brand {
+    color: black;
+}
+html{
+    height: 100%;
+}
+body{
+ background: url("../images/image1.jpg")
+    no-repeat center center fixed;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Work Sans', sans-serif;
+
+}
+.center{
+    text-align: center;
+    padding: 15%
+}
+h1, p{
+    color: black;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+    color: white;
+    background-color: black;
+}
+h2>span{
+  color: black;
+}
+@media (max-width:768px){
+    h1{
+        background-color: lightcyan;
+        opacity: 0.8
+    }
+   span{
+        background-color: black ;
+    }
+}
+#login{
+    min-width: 250px;
+    background-color: rgba(255,255,255,0.7);
+    padding: 14px 14px 0;
+}
+    }
+   span{
+        background-color: black ;
+    }
+#login .social-buttons{
+    margin: 12px 0;
+}
+.btn-fb{
+  color: #fff;
+    background-color: #3b599d
+}
+.btn-tw{
+    color: #fff;
+    background-color: #55acee;
+    margin-left: 12px;
+}
+
